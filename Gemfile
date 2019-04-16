@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.2.2'
-gem 'pg', '~> 1.3.6'
+gem 'pg'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -30,7 +30,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'html2slim'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
   gem 'guard-rspec'
